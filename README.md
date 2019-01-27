@@ -70,7 +70,7 @@ http://192.168.33.10:8080
     - `nodes`       : node json files
 
 ### References
-* Community cookbooks Java & Jenkins are used for installation.
+* Community cookbooks Java & Jenkins are used for installation. Thanks to the providers.
 
 
 
