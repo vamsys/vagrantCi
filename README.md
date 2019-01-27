@@ -50,6 +50,7 @@ In the terminal,
 * Check vagrantfile has below properties, if not add them. \
 ``` config.vm.box = "ubuntu/trusty64" ```\
 ``` config.vm.network "private_network", ip: "192.168.33.10" ```
+```$ vb.memory is set to 4096``` : Change according to your host system
 
 * Run vagrant command:
 ```$ vagrant up``` and wait for vagrant and chef run to finish.
