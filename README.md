@@ -57,6 +57,10 @@ In the terminal,
 > Once finished, navigate to url below to verify jenkins is up and running: \
 http://192.168.33.10:8080
 
+* To verify inside the VM: \
+```$ vagrant ssh``` : to login into VM \
+```$ ps -ef | grep jenkins``` : to verify jenkins process is running
+
 ### Folder Setup
 - `vagrantCi/` : Contents of the repo
     - `Vagrantfile` : VM config and setup
