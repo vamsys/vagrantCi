@@ -1,0 +1,6 @@
+.idea
+.vagrant
+Berksfile.lock
+nodes/*
+cookbooks/jenkins-setup/.delivery
+cookbooks/jenkins-setup/.delivery/*
