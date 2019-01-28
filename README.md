@@ -26,7 +26,7 @@ Once Vagrant is installed, or if it already is, install the following Vagrant pl
 * [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
 ```$ vagrant plugin install vagrant-vbguest```
 * [vagrant-berkshelf](https://github.com/berkshelf/vagrant-berkshelf)
-```$ vagrant plugin install vagrant-vbguest```
+```$ vagrant plugin install vagrant-berkshelf```
 
 ### Installation
 
