@@ -1,4 +1,6 @@
 .idea
 .vagrant
+!nodes
+nodes/*
 cookbooks/jenkins-setup/.delivery
 cookbooks/jenkins-setup/.delivery/*
