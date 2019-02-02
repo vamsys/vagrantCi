@@ -1,0 +1,12 @@
+[Unit]
+Description = Java Service
+After network.target = hellochef.service
+
+[Service]
+Type = forking
+ExecStart = /usr/local/bin/hellochef.sh start
+ExecStop = /usr/local/bin/hellochef.sh stop
+ExecReload = /usr/local/bin/hellochef.sh reload
+
+[Install]
+WantedBy=multi-user.target
